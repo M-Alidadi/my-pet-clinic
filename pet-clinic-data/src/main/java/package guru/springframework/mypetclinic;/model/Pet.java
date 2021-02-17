@@ -1,27 +1,25 @@
-package guru.springframework.mypetclinic.model;
-
-import sun.util.resources.LocaleData;
+package model;
 
 import java.time.LocalDate;
 
 public class Pet {
-    private PetType petType;
-    private Owner owner;
+    private model.PetType petType;
+    private model.Owner owner;
     private LocalDate birthDate;
 
-    public PetType getPetType() {
+    public model.PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(PetType petType) {
+    public void setPetType(model.PetType petType) {
         this.petType = petType;
     }
 
-    public Owner getOwner() {
+    public model.Owner getOwner() {
         return owner;
     }
 
-    public void setOwner(Owner owner) {
+    public void setOwner(model.Owner owner) {
         this.owner = owner;
     }
 
