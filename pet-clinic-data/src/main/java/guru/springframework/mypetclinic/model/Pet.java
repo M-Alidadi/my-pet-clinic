@@ -1,25 +1,25 @@
-package model;
+package guru.springframework.mypetclinic.model;
 
 import java.time.LocalDate;
 
 public class Pet {
-    private model.PetType petType;
-    private model.Owner owner;
+    private PetType petType;
+    private Owner owner;
     private LocalDate birthDate;
 
-    public model.PetType getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(model.PetType petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
-    public model.Owner getOwner() {
+    public Owner getOwner() {
         return owner;
     }
 
-    public void setOwner(model.Owner owner) {
+    public void setOwner(Owner owner) {
         this.owner = owner;
     }
 
